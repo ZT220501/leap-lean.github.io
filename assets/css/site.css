@@ -415,6 +415,8 @@ h1.ph{font-size:clamp(28px,4vw,40px);line-height:1.12;font-weight:800;letter-spa
 .plabel{font:500 10.5px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .prow2 p{margin:0;font-size:13.5px;line-height:1.7;color:var(--ink-2)}
 .pn{white-space:nowrap}
+.pn.core{font-weight:700;color:var(--ink)}
+.core-note b{font-weight:700;color:var(--ink)}
 .people sup,.affils sup{font:500 9.5px var(--mono);color:var(--accent-ink);margin-left:1px}
 .affils{list-style:none;margin:4px 0 0;padding:0 0 0 146px;display:flex;flex-wrap:wrap;gap:4px 18px;font-size:12px;color:var(--muted)}
 @media (max-width:640px){.affils{padding-left:0}}
