@@ -27,7 +27,7 @@
     }
   ],
   "lean": {
-    "repo": "https://github.com/billkunghappy/LEAP-CLI",
+    "repo": "https://github.com/leap-lean/LEAP-CLI",
     "root": "erdos_789.variants.cube_root_linearithmic"
   },
   "id": "erdos-789",

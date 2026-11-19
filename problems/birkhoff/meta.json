@@ -1,0 +1,37 @@
+{
+  "subtitle": "a smooth convex billiard with a continuous caustic collar is an ellipse",
+  "collection": "Classic problems",
+  "number": null,
+  "variant": null,
+  "marks": "",
+  "featured": false,
+  "area": "Dynamical Systems · Geometry",
+  "loc": 424734,
+  "dag_lemmas": 383,
+  "credit": null,
+  "added": "2026-11",
+  "summary": "A Birkhoff-conjecture rigidity theorem: if a smooth, positively curved convex billiard table has a continuous collar of smooth convex caustics accumulating at its boundary, then the table is an ellipse.",
+  "problem": [
+    "Birkhoff's conjecture asks whether ellipses are the only integrable convex billiard tables. The OpenAI preprint “Rigidity of Smooth Billiards with a Continuous Caustic Collar” (September 24, 2026) proves a rigidity statement in this direction: a smooth, strictly convex table with positive boundary curvature whose neighbourhood of the boundary is foliated by smooth closed convex caustics (a continuous caustic collar, Definition 1.1) must be an ellipse (Theorem 1.2). We formalize Definition 1.1 and Theorem 1.2 end-to-end using LEAP."
+  ],
+  "statement": "Let Ω ⊂ ℝ² be a bounded strictly convex domain whose boundary is a C^∞ simple closed regular curve with positive curvature. If Ω has a continuous caustic collar, i.e. a relatively open set A ⊂ Ω̄ containing ∂Ω and a homeomorphism H₀ : 𝕊¹ × [0, 1) → A with H₀(𝕊¹ × {0}) = ∂Ω such that each slice H₀(𝕊¹ × {b}), 0 < b < 1, is a smooth closed convex caustic, then Ω is an ellipse.",
+  "notes": [],
+  "links": [
+    {
+      "label": "OpenAI preprint (PDF)",
+      "url": "https://github.com/openai/math/blob/main/preprints/Rigidity-of-Smooth-Billiards-with-a-Continuous-Caustic-Collar-September-24-2026/paper.pdf"
+    }
+  ],
+  "lean": {
+    "repo": "https://github.com/leap-lean/LEAP-CLI",
+    "root": "birkhoff_theorem_1_2"
+  },
+  "id": "birkhoff",
+  "title": "Rigidity of Smooth Billiards with a Continuous Caustic Collar",
+  "files": {
+    "statement": "problem.lean",
+    "dag": "proof_graph.json",
+    "proof": "answer.lean",
+    "informal": "informal.md"
+  }
+}
