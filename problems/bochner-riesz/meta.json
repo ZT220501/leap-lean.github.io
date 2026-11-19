@@ -1,0 +1,42 @@
+{
+  "subtitle": "the Bochner–Riesz conjecture in three dimensions",
+  "collection": "Classic problems",
+  "number": null,
+  "variant": null,
+  "marks": "",
+  "featured": false,
+  "area": "Harmonic Analysis",
+  "loc": 227612,
+  "dag_lemmas": 179,
+  "credit": null,
+  "added": "2026-11",
+  "summary": "Bochner–Riesz multipliers of every positive order are bounded on L³(ℝ³), the key case of the three-dimensional Bochner–Riesz conjecture.",
+  "problem": [
+    "The Bochner–Riesz conjecture predicts the exact range of Lᵖ boundedness for the multipliers (1 − |ξ|²)₊^δ and is one of the central open problems of Fourier restriction theory. The OpenAI preprint “Bochner–Riesz multipliers in three dimensions” (September 24, 2026) proves the three-dimensional conjecture in its strict-order formulation, whose main result is boundedness on L³(ℝ³) for every positive order (Theorem 1.1). We formalize Theorem 1.1 using LEAP, taking the planar Ren–Wang estimate (Theorem 3.1, discrete form) as an assumed result."
+  ],
+  "statement": "For every δ > 0 there is a finite constant C_δ ≥ 0 such that ‖T_δ f‖_{L³(ℝ³)} ≤ C_δ ‖f‖_{L³(ℝ³)} for every Schwartz function f on ℝ³, where T_δ is the Bochner–Riesz multiplier with symbol (1 − |ξ|²)₊^δ.",
+  "notes": [
+    {
+      "title": "Assumed result",
+      "text": "Theorem 3.1 of the paper (Ren–Wang, discrete form) is stated as the axiom ren_wang, matching the statement in the paper, and is not proved here. The proof of Theorem 1.1 uses no other axioms beyond propext, Classical.choice and Quot.sound."
+    }
+  ],
+  "links": [
+    {
+      "label": "OpenAI preprint (PDF)",
+      "url": "https://github.com/openai/math/blob/main/preprints/Bochner-Riesz-Multipliers-in-Three-Dimensions-September-24-2026/Bochner-Riesz-Multipliers-in-Three-Dimensions-September-24-2026.pdf"
+    }
+  ],
+  "lean": {
+    "repo": "https://github.com/leap-lean/LEAP-CLI",
+    "root": "bochner_riesz"
+  },
+  "id": "bochner-riesz",
+  "title": "Bochner–Riesz Multipliers in Three Dimensions",
+  "files": {
+    "statement": "problem.lean",
+    "dag": "proof_graph.json",
+    "proof": "answer.lean",
+    "informal": "informal.md"
+  }
+}

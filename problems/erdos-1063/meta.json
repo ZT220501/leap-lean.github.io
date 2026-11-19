@@ -27,7 +27,7 @@
     }
   ],
   "lean": {
-    "repo": "https://github.com/billkunghappy/LEAP-CLI",
+    "repo": "https://github.com/leap-lean/LEAP-CLI",
     "root": "erdos_1063_all"
   },
   "id": "erdos-1063",

@@ -1,0 +1,37 @@
+{
+  "subtitle": "uniform interior C^{1,α} regularity in every dimension d ≥ 3",
+  "collection": "Classic problems",
+  "number": null,
+  "variant": null,
+  "marks": "",
+  "featured": false,
+  "area": "PDE · Analysis",
+  "loc": 32855,
+  "dag_lemmas": 120,
+  "credit": null,
+  "added": "2026-11",
+  "summary": "Bounded infinity-harmonic functions in d ≥ 3 dimensions are C^{1,α_d} in the interior, with a uniform dimensional estimate.",
+  "problem": [
+    "Infinity-harmonic functions are the viscosity solutions of the infinity Laplace equation Δ_∞u = ⟨D²u ∇u, ∇u⟩ = 0, the Euler–Lagrange equation of absolutely minimizing Lipschitz extensions. The OpenAI preprint “Uniform Interior C^{1,α} Estimates for Infinity-Harmonic Functions” (October 4, 2026) proves a uniform interior C^{1,α_d} estimate for bounded infinity-harmonic functions in every dimension d ≥ 3 (Theorem 1.1). We formalize Theorem 1.1 end-to-end using LEAP, with infinity-harmonicity defined in the viscosity sense."
+  ],
+  "statement": "For every integer d ≥ 3 there are constants α_d ∈ (0, 1/3] and C_d < ∞ such that every bounded infinity-harmonic function u ∈ C(B₁), B₁ ⊂ ℝ^d, belongs to C^{1,α_d}(B_{1/2}) and satisfies ‖∇u‖_{L^∞(B_{1/2})} + [∇u]_{C^{0,α_d}(B_{1/2})} ≤ C_d osc_{B₁} u.",
+  "notes": [],
+  "links": [
+    {
+      "label": "OpenAI preprint (PDF)",
+      "url": "https://github.com/openai/math/blob/main/preprints/Uniform-Interior-C1alpha-Estimates-for-Infinity-Harmonic-Functions-October-4-2026/interior-c1-infinity-harmonic.pdf"
+    }
+  ],
+  "lean": {
+    "repo": "https://github.com/leap-lean/LEAP-CLI",
+    "root": "OAI_377"
+  },
+  "id": "infinity-harmonic",
+  "title": "Uniform Interior C^{1,α} Estimates for Infinity-Harmonic Functions",
+  "files": {
+    "statement": "problem.lean",
+    "dag": "proof_graph.json",
+    "proof": "answer.lean",
+    "informal": "informal.md"
+  }
+}
